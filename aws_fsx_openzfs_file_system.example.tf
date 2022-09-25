@@ -6,6 +6,3 @@ resource "aws_fsx_openzfs_file_system" "example" {
   kms_key_id                      = var.kms_key_id
   automatic_backup_retention_days = 0 #flag as no bckup
 }
-
-
-

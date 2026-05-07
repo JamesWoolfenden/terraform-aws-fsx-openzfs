@@ -44,7 +44,7 @@ No requirements.
 ## Providers
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
 
 ## Modules
@@ -54,7 +54,7 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [aws_fsx_openzfs_file_system.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/fsx_openzfs_file_system) | resource |
 | [aws_fsx_openzfs_snapshot.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/fsx_openzfs_snapshot) | resource |
 | [aws_fsx_openzfs_volume.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/fsx_openzfs_volume) | resource |
@@ -62,8 +62,8 @@ No modules.
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_file_system"></a> [file\_system](#input\_file\_system) | n/a | <pre>object({<br>    storage_capacity    = number<br>    deployment_type     = string<br>    throughput_capacity = number<br>  })</pre> | n/a | yes |
+| ---- | ----------- | ---- | ------- | :------: |
+| <a name="input_file_system"></a> [file\_system](#input\_file\_system) | n/a | <pre>object({<br/>    storage_capacity    = number<br/>    deployment_type     = string<br/>    throughput_capacity = number<br/>  })</pre> | n/a | yes |
 | <a name="input_kms_key_id"></a> [kms\_key\_id](#input\_kms\_key\_id) | KMS key ARN | `string` | n/a | yes |
 | <a name="input_subnet_ids"></a> [subnet\_ids](#input\_subnet\_ids) | n/a | `list(any)` | n/a | yes |
 | <a name="input_volume_name"></a> [volume\_name](#input\_volume\_name) | Volume Name | `string` | `"new"` | no |
@@ -71,7 +71,7 @@ No modules.
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_file_system"></a> [file\_system](#output\_file\_system) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
